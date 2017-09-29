@@ -1,0 +1,773 @@
+{
+  "settings": {
+    "name": "ShaddyBerry's Kech",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#127065",
+        "#327850",
+        "#2f6271",
+        "#182225"
+      ]
+    },
+    "versionFirst": "4.3.2",
+    "uniqCompNum": 34,
+    "versionPublish": "4.3.2",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#182225",
+            "hamburgerColor": "#5cb85c"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"index.html\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page1.html\">About Us</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page2.html\">Products/Services</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page3.html\">Contact Us</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/shadyberry-176x128.png",
+              "height": 128,
+              "alt": "shaddyberry",
+              "link": "https://mobirise.com",
+              "title": "ShaddyBerry's Kech"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-warning\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ShaddyBerry's Kech</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#5cb85c"
+            },
+            ".navbar-brand": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "30px"
+            }
+          }
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#f1c050",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/main2-8-2000x1017.png",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Chicken pepperstew",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/chicken-pepper-stew-405x315.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Chicken pepperstew",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/chicken-stew-1-2000x1402.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Chicken stew",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/fried-rice-500x295.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "fried rice with chicken",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/rice-chicken-1-1600x1067.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Rice with Chicken",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/salad-chicken-1-630x354.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Salad with Chicken",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/fried-rice-500x295.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "fried rice with chicken",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-5",
+          "_styles": {
+            "H2": {
+              "color": "#fbf2be",
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/shadyberry-1252x907.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "About Us",
+          "text": "ShaddyBerry's Kech Started as a fun project which has become a reality. Our main goal is to meet our clients expectations through our cooking and catering services, ...<br>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Read More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-g",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-size": "30px"
+            },
+            "H2": {
+              "text-align": "left",
+              "font-size": "48px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#182225",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Products and Services",
+          "text": "Our Services includes: Cooking of Rice: Jollof riced, fried rice, chicken stew, chicken pepper sauce, Kilishi, e.tc",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Read More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-h",
+          "_styles": {
+            "H2": {
+              "color": "#fff8e0",
+              "font-size": "48px"
+            },
+            "P": {
+              "color": "#fff8e0",
+              "font-size": "30px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact Us",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-i"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#182225",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/shaddai.l.johnson\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>       ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-j"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#182225",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Created by <a href=\"https://twitter.com/successfuljosh\" target=\"_blank\">SoluProv Tech</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-x",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "About Us",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#182225",
+            "hamburgerColor": "#5cb85c"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"index.html\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page1.html\">About Us</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page2.html\">Products/Services</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page3.html\">Contact Us</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/shadyberry-176x128.png",
+              "height": 128,
+              "alt": "shaddyberry",
+              "link": "https://mobirise.com",
+              "title": "ShaddyBerry's Kech"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-warning\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ShaddyBerry's Kech</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#5cb85c"
+            },
+            ".navbar-brand": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "30px"
+            }
+          },
+          "_anchor": "menu-l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "About us",
+          "text": "ShaddyBerry's Kech Started as a fun project which has become a reality. Our main goal is to meet our clients expectations through our cooking and catering services which is specially designed to satisfy your taste.<br><br>&nbsp;We also spice up your events with <b>fresh Kilishsi</b> that leaves your tongue tied.<br><br>ShaddyBerry's Kech is here to serve you and we can wait to have a meal with you",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-m",
+          "_styles": {
+            "P": {
+              "font-size": "30px",
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Us",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>       ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-n"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Products and Services",
+        "order": 2
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#182225",
+            "hamburgerColor": "#5cb85c"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"index.html\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page1.html\">About Us</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page2.html\">Products/Services</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page3.html\">Contact Us</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/shadyberry-176x128.png",
+              "height": 128,
+              "alt": "shaddyberry",
+              "link": "https://mobirise.com",
+              "title": "ShaddyBerry's Kech"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-warning\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ShaddyBerry's Kech</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#5cb85c"
+            },
+            ".navbar-brand": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "30px"
+            }
+          },
+          "_anchor": "menu-o"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Products and Services",
+          "text": "Our Services includes: Cooking of Rice: Jollof riced, fried rice, chicken stew, chicken pepper sauce, Kilishi, Moi-Moi, e.tc<br><br>African dishes like Egusi, Ogbono, Ofe Akwu(Banga Soup), Ofe Oha, Ofe Owerri, etc",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-q",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Us",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>       ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-r",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            }
+          }
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "Contact Us",
+        "order": 3
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#182225",
+            "hamburgerColor": "#5cb85c"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"index.html\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page1.html\">About Us</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page2.html\">Products/Services</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-black-outline btn-black\" data-app-selector=\".nav-item .btn\" href=\"page3.html\">Contact Us</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/shadyberry-176x128.png",
+              "height": 128,
+              "alt": "shaddyberry",
+              "link": "https://mobirise.com",
+              "title": "ShaddyBerry's Kech"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-warning\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ShaddyBerry's Kech</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#5cb85c"
+            },
+            ".navbar-brand": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "30px"
+            }
+          },
+          "_anchor": "menu-s"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact Us",
+          "text": "You reach us via call or text on 09099277796 or fill in the form below to mail us",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Start a Journey</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-t",
+          "_styles": {
+            "P": {
+              "font-size": "36px"
+            },
+            "H2": {
+              "font-size": "60px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "Lagos, Nigeria",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-u"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f1c050",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact Form",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black-outline btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Message</a>",
+          "form": {
+            "action": "shaddaijohnson2014@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-v"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Us",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>       ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-w",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "36px"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

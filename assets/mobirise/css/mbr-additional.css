@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+
+#menu-0 .navbar-toggler {
+  color: #5cb85c;
+}
+#menu-0 .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+#slider-5 H2 {
+  color: #fbf2be;
+  text-align: left;
+  font-family: 'Lora', serif;
+}
+#msg-box1-g P {
+  text-align: left;
+  font-size: 30px;
+}
+#msg-box1-g H2 {
+  text-align: left;
+  font-size: 48px;
+}
+#msg-box1-h H2 {
+  color: #fff8e0;
+  font-size: 48px;
+}
+#msg-box1-h P {
+  color: #fff8e0;
+  font-size: 30px;
+}
+#footer1-x P {
+  text-align: center;
+}
+
+#menu-l .navbar-toggler {
+  color: #5cb85c;
+}
+#menu-l .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+#header1-m P {
+  font-size: 30px;
+  text-align: left;
+}
+
+
+#menu-o .navbar-toggler {
+  color: #5cb85c;
+}
+#menu-o .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+#header1-q P {
+  text-align: left;
+  font-size: 32px;
+}
+#social-buttons2-r .mbr-section-title {
+  font-family: 'Slabo 27px', serif;
+}
+
+
+#menu-s .navbar-toggler {
+  color: #5cb85c;
+}
+#menu-s .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+#msg-box1-t P {
+  font-size: 36px;
+}
+#msg-box1-t H2 {
+  font-size: 60px;
+}
+#social-buttons2-w .mbr-section-title {
+  font-family: 'Slabo 27px', serif;
+  font-size: 36px;
+}
