@@ -1,0 +1,123 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Scripts/bootstrap.css" rel="stylesheet">
+<link href="Scripts/site.css" rel="stylesheet">
+ <title>Model Page - My Model Application</title>
+</head>
+
+<body onload="check(); init('BG','images/bg1.png');">
+<h2 align="center">Model Clothing App</h2>
+<center><marquee direction="up" style="text-align: center; width::auto; height: 30px; font-size: 20; font-style: italic;font-style:oblique;" scrollamount="1"> Click of the various types and colors to decorate the Model</marquee></center>
+
+<table align="Center" width="70%">
+<tr style="vertical-align: top;">
+
+<td style="width: 10%">BACKGROUNDS<br/>
+<img src="images/bg1.png" width="50" height="50" onclick="init('BG','images/bg1.png')"><br/><br/>
+<img src="images/bg2.png" width="50" height="50" onclick="init('BG','images/bg2.png')"><br/><br/>
+<img src="images/bg3.png" width="50" height="50" onclick="init('BG','images/bg3.png')"><br/><br/>
+</td>
+
+<td style="width: 10%"> GOWNS<br/>
+<img src="images/blackGown.png" width="50" height="50" onclick="init('GOWN','images/blackGown.png')"><br/><br/>
+<img src="images/redGown.png" width="50" height="50" onclick="init('GOWN','images/redGown.png')"><br/><br/>
+<img src="images/yellowGown.png" width="50" height="50" onclick="init('GOWN','images/yellowGown.png')"><br/><br/>
+</td>
+<td>
+<section style="border-style: solid; border-width: 2px; width: 512px;">
+<canvas id="mycanvas" HEIGHT="400" WIDTH="512" ID="canvas">
+</canvas> 
+</section>
+<input type="submit" value="Clean" onclick="clean()">
+<a href="#" download="Model_Export.png" id="image">
+<button type="button" id="exportBtn" style="position: absolute;" onclick="save()" disabled>Export</button>
+ </a>
+</td>
+<td style="width: 10%"> TOPS<br/>
+<img src="images/blueTop.png" width="50" height="50" onclick="init('TOP','images/blueTop.png')"><br/><br/>
+<img src="images/redTop.png" width="50" height="50" onclick="init('TOP','images/redTop.png')"><br/><br/>
+<img src="images/yellowTop.png" width="50" height="50" onclick="init('TOP','images/yellowTop.png')"><br/><br/>
+</td>
+
+<td style="width: 10%"> DOWNS<br/>
+<img src="images/blueDown.png" width="50" height="50" onclick="init('DOWN','images/blueDown.png')"><br/><br/>
+<img src="images/redDown.png" width="50" height="50" onclick="init('DOWN','images/redDown.png')"><br/><br/>
+<img src="images/yellowDown.png" width="50" height="50" onclick="init('DOWN','images/yellowDown.png')"><br/><br/>
+</td>
+ </tr>
+  </table>
+</body>
+
+<script type="text/javascript">
+//initialize canvas and mouse events for canvas
+	var canvas=document.getElementById("mycanvas");
+	var ctx;
+	var width=512;
+	var height=400;
+function check(){
+	var isFirefox = typeof InstallTrigger !== 'undefined';
+	if(!isFirefox){
+		alert("Exporting Image works better using Firefox");
+	}
+}
+
+function init(drawingType, imageSource){
+
+//Image for clothes
+	var imageObject=document.createElement("img");
+	imageObject.src=imageSource;
+
+	if(canvas.getContext)
+	{
+	ctx=canvas.getContext('2d');
+
+	if(drawingType=='BG'){
+		clean();
+		var imageFace=document.createElement("img");
+		imageFace.src='images/face.png';
+	imageObject.onload=function(){
+	imageFace.onload=function(){	
+		ctx.drawImage(imageObject,0,0,canvas.width,canvas.height);
+		ctx.drawImage(imageFace,193,1,105,196);
+		document.getElementById('exportBtn').disabled=true;
+	}}
+	}
+	else if(drawingType=='GOWN'){
+		ctx.drawImage(imageObject,178,75,150,325);
+		document.getElementById('exportBtn').disabled=false;
+	}
+	else if(drawingType=='TOP'){
+		ctx.drawImage(imageObject,207,74,78,60);
+		document.getElementById('exportBtn').disabled=false;
+	}
+	else if(drawingType=='DOWN'){
+		ctx.drawImage(imageObject,178,134,150,265);
+		document.getElementById('exportBtn').disabled=false;
+	}
+	else
+	{
+		alert("Not found");
+	}}
+	else{
+		alert('Your browser is not supporting HTML5 Canvas .Upgrade Browser to view this program or check with Chrome or in Firefox.');
+	}
+	
+}
+
+function clean(){
+canvas.width=canvas.width;
+}
+
+function save(){
+    var image = canvas.toDataURL('images/png');
+$("#image").attr({
+	'href':image,
+	'target':'_blank'
+});
+}
+</script>
+<script src="Scripts/jquery-1.10.2.js"></script>
+</html>
